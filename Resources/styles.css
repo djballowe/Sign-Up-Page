@@ -57,12 +57,13 @@ table {
 }
 
 .image {
-    background-image: url('file:///Users/davidballowe/Documents/Github/Sign-Up-Page/Resources/Images/Background.jpg');
+    background-image: url('file:///home/david/GitHub/Sign-Up-Page/Resources/Images/Background.jpg');
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
     height: 100vh;
     width: 40%;
+    flex-shrink: 0;
 }
 
 .logo {
@@ -81,6 +82,7 @@ table {
     font-size: 3rem;
     color: white;
     opacity: 100%;
+    margin-right: 10px;
 }
 
 #spa {
@@ -88,6 +90,50 @@ table {
     font-size: 2.5rem;
     margin-left: 5px;
 }
+
+/* sign up part */
+
+
+
+.top-text {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 100px 40px 20px 20px;
+    font-style: bold;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0 0 40px 20px;
+}
+
+
+
+button {
+    padding: 10px 35px;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #186969;
+    border-radius: 8px;
+    color: white;
+    margin: 40px 0 0 20px;
+    border: none;
+}
+
+.account {
+    margin: 40px 0 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #186969;
+    font-weight: bold;
+    
+}
+
 
 
 
