@@ -69,6 +69,7 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     width: auto;
     background-color: rgba(0, 0, 0, 0.37);
     margin-top: 300px;
@@ -81,6 +82,13 @@ table {
     color: white;
     opacity: 100%;
 }
+
+#spa {
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 5px;
+}
+
 
 
 
