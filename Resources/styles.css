@@ -102,7 +102,7 @@ table {
     font-style: bold;
 }
 
-h1 {
+.bottom-text {
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -132,6 +132,20 @@ a {
     color: #186969;
     font-weight: bold;
     
+}
+
+form {
+    border: 2px rgba(191, 191, 191, 0.486) solid;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.sign-up {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0 0 20px 0;    
 }
 
 
