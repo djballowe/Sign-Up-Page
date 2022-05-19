@@ -98,15 +98,20 @@ table {
 .top-text {
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
-    margin: 100px 40px 20px 20px;
-    font-style: bold;
+    margin: 100px 40px 20px 40px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    font-weight: bold;
 }
 
 .bottom-text {
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    margin: 0 0 40px 20px;
+    margin: 0 0 40px 40px;
 }
 
 
@@ -119,12 +124,12 @@ button {
     background-color: #186969;
     border-radius: 8px;
     color: white;
-    margin: 40px 0 0 20px;
+    margin: 40px 0 0 40px;
     border: none;
 }
 
 .account {
-    margin: 40px 0 0 20px;
+    margin: 40px 0 0 40px;
 }
 
 a {
@@ -139,6 +144,7 @@ form {
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    margin: 40px;
 }
 
 .sign-up {
