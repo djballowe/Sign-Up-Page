@@ -61,7 +61,20 @@ table {
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
-    height: 1000px;
+    height: 100vh;
     width: 40%;
+}
+
+.logo {
+    display: flex;
+    width: auto;
+    background-color: black;
+    opacity: 40%;
+    margin-top: 300px;
+}
+
+.logo-text  {
+    font-size: 100px;
+    
 }
 
