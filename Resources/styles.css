@@ -173,6 +173,14 @@ input, label {
     border: blue;
 }
 
+input {
+    padding: 10px;
+}
+
+input:invalid {
+    border: red;
+}
+
 
 
 
